@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/dr_profile"
+            android:title="Profile"
+            />
+        <item android:id="@+id/message"
+            android:icon="@drawable/dr_chat"
+            android:title="Message"
+            />
+        <item android:id="@+id/gallery"
+            android:icon="@drawable/dr_gallery"
+            android:title="Gallery"
+            />
+        <item android:id="@+id/create_post"
+            android:icon="@drawable/dr_create"
+            android:title="Create Post"
+            />
+    </group>
+    <item android:title="Account Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/edit_profile"
+                    android:icon="@drawable/dr_editprof"
+                    android:title="Edit Profile"
+                    />
+                <item android:id="@+id/Change_password"
+                    android:icon="@drawable/dr_changepass"
+                    android:title="Change Password"
+                    />
+                <item android:id="@+id/deleteAcc"
+                    android:icon="@drawable/dr_delete"
+                    android:title="Delete Account"
+                    />
+                <item android:id="@+id/savedAcc"
+                    android:icon="@drawable/dr_saved"
+                    android:title="Saved Accounts"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Option">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/about_us"
+                    android:icon="@drawable/dr_info"
+                    android:title="About us"
+                    />
+                <item android:id="@+id/logout"
+                    android:icon="@drawable/dr_logout"
+                    android:title="Log Out"
+                    />
+
+            </group>
+        </menu>
+    </item>
+</menu>
